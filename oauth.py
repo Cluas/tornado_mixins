@@ -17,7 +17,8 @@ except ImportError:
 
 class WexinOAuth2Mixin(OAuth2Mixin):
     """
-    WeChat authentication using OAuth2.
+    Wexin authentication using OAuth2.
+    微信Oauth2混用类
     """
     _OAUTH_AUTHORIZE_URL = 'https://open.weixin.qq.com/connect/qrconnect'
     _OAUTH_ACCESS_TOKEN_URL = 'https://api.weixin.qq.com/sns/oauth2/access_token'
